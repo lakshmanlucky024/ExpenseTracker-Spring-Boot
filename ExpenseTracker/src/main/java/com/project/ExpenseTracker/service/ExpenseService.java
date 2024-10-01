@@ -27,7 +27,6 @@ public class ExpenseService {
 		expense.setAmount(expenseDTO.getAmount());
 		expense.setCategory(expenseDTO.getCategory());
 		expense.setDescription(expenseDTO.getDescription());
-		
 		return expenseRepo.save(expense);
 	}
 	
